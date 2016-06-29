@@ -12,6 +12,11 @@
 		<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
+      		<!---Autolink--->
+      <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+      <script src='//lasalleit.github.io/static-contents/autolink.js'></script>
+      <!---TwitterText--->
+      <script src='//lasalleit.github.io/static-contents/twitter-text.js'></script>
 	</head>
 	<body>
 		<div class="container">

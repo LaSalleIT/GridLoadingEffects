@@ -1,0 +1,46 @@
+
+<html>
+  <head>
+  <meta charset="utf8">
+      <!--bs-->
+      <!--    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css"> -->
+      <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css">-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+      <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+
+      <!---Vue.js--->
+      <script src="//lasalleit.github.io/static-contents/vue.js"></script>
+      <!---Autolink--->
+      <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+      <script src='//lasalleit.github.io/static-contents/autolink.js'></script>
+      <!---TwitterText--->
+      <script src='//lasalleit.github.io/static-contents/twitter-text.js'></script>
+      <!---Jumbotron narrow--->
+
+      <!--masonry-->
+      <script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/default.css" />
+      <link rel="stylesheet" type="text/css" href="css/component.css" />
+      <script src="js/modernizr.custom.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+        <ul class="grid effect-2" id="grid"></ul>
+    </div>
+  </body>
+  <script>
+  document.getElementById('grid').innerHTML = '<li><a href="http://drbl.in/fWMM"><img src="images/1.jpg"></a></li>';
+  </script>
+  <script src="js/masonry.pkgd.min.js"></script>
+  <script src="js/imagesloaded.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/AnimOnScroll.js"></script>
+  <script>
+    new AnimOnScroll( document.getElementById( 'grid' ), {
+      minDuration : 0.4,
+      maxDuration : 0.7,
+      viewportFactor : 0.2
+    } );
+  </script>
+</html>
